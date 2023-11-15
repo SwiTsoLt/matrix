@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Матрицы</title>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./styles/zero.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/loader.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+
+    <script src="./scripts/loader.js"></script>
+    <script src="./libs/anime/anime.min.js" defer></script>
+    <script src="./libs/gsap/gsap.min.js" defer></script>
+    <script src="./libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="./scripts/smooth-scroll.js" defer></script>
+    <script src="./scripts/main-anim.js" defer></script>
+    <script src="./scripts/main.js" defer></script>
+</head>
+
+<body class="loading">
+    <div class="loader-container active">
+        <span class="loader"></span>
+        <h1>Loading...</h1>
+    </div>
+    <div class="wrapper smooth-scroll-wrapper">
+        <header class="hero-header">
+            <video src="./media/matrix_effect.mp4" autoplay muted loop></video>
+            <div class="textContainer">
+                <div class="title anim-title">
+                    <h1 data-speed="-0.3" class="el">Матрицы</h1>
+                </div>
+                <div data-speed="-0.3" class="matrix"></div>
+            </div>
+        </header>
+        <main id="main" class="container">
+            <div class="main-bg"></div>
+            <div class="content">
+                <iframe data-speed=".05" width="560" height="315" src="https://www.youtube.com/embed/DtZuw5LOovg?si=lUTNIpSVXOjrQtIQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+                <div data-speed=".15" class="text">
+                    <h1>Матрицы: начало.<br>Высшая математика</h1>
+                    <p>В этом видео вы познакомитесь с такой темой высшей математики, как "Матрицы". Узнайте все нюансы,
+                        научитесь решать задачи и многое другое.</p>
+                </div>
+            </div>
+            <br>
+            <div data-speed=".1" class="links-container">
+                <div class="title">
+                    <h1>Темы</h1>
+                </div>
+                <div class="links">
+                    <a href="./pages/what-is-a-matrix.html" class="link">
+                        <h2>Что такое матрица?</h2>
+                    </a>
+                    <a href="./pages/history.html" class="link">
+                        <h2>История матриц</h2>
+                    </a>
+                    <a href="./pages/addition-and-subtraction.html" class="link">
+                        <h2>Сложение и вычитание матриц</h2>
+                    </a>
+                    <a href="./pages/matrix-product.html" class="link">
+                        <h2>Произведение матриц</h2>
+                    </a>
+                    <a href="./pages/matrix-transpose.html" class="link">
+                        <h2>Транспонирование матрицы</h2>
+                    </a>
+                    <a href="./pages/inverse-matrix.html" class="link">
+                        <h2>Обратные матрицы</h2>
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer id="footer">
+            <hr>
+            <div class="footer-container container">
+                <small>© БГУИР филиал МРК, 2023</small>
+                <p>Харук Антон Евгеньевич, 2к9191</p>
+                <p>Отделение РТО</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

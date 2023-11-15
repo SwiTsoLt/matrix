@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Обратные матрицы</title>
+    <link rel="icon" type="image/x-icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/zero.css">
+    <link rel="stylesheet" href="../styles/loader.css">
+    <link rel="stylesheet" href="../styles/what-is-a-matrix.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+
+    <script src="../scripts/loader.js"></script>
+    <script src="../libs/anime/anime.min.js" defer></script>
+    <script src="../libs/gsap/gsap.min.js" defer></script>
+    <script src="../libs/gsap/ScrollTrigger.min.js" defer></script>
+    <script src="../scripts/smooth-scroll.js" defer></script>
+    <script src="../scripts/main-anim.js" defer></script>
+    <script src="../scripts/what-is-a-matrix.js" defer></script>
+</head>
+
+<body class="loading">
+    <div class="wrapper smooth-scroll-wrapper">
+        <div class="loader-container active">
+            <span class="loader"></span>
+            <h1>Loading...</h1>
+        </div>
+        <div class="container">
+            <div data-speed="0" class="back">
+                <a href="../index.html">
+                    <span>Назад</span>
+                </a>
+            </div>
+            <header>
+                <div class="title">
+                    <h1>Обратные матрицы</h1>
+                </div>
+            </header>
+            <main>
+                <div class="main-bg"></div>
+                <div class="left">
+                    <br><br><br><br>
+                    <img src="../media/inverse-matrix-0.png" alt="Обратное число">
+                    <br>
+                    <img src="../media/inverse-matrix-0-2.png" alt="Обратное число">
+                    <img src="../media/inverse-matrix-4.png" alt="Обратная матрица">
+                    <br><br><br><br><br><br><br><br><br><br>
+                    <img src="../media/inverse-matrix-3.png" alt="Обратная матрица">
+                </div>
+                <div class="right">
+                    <h2 data-speed="0.1">Обратное — это как?</h2>
+                    <p data-speed="0.2" class="important">
+                        В математике есть взаимно обратные числа. Они получаются так: вы берёте какое-то число,
+                        добавляете отрицательную степень и получаете обратное число:
+                    </p>
+                    <p data-speed="0.2">
+                        Обратные числа при умножении друг на друга всегда дают единицу:
+                    </p>
+                    <p data-speed="0.2">
+                        <strong>Обратная матрица</strong>
+                    </p>
+                    <p data-speed="0.2">
+                        В линейной алгебре есть обратные матрицы. По свойствам они напоминают обратные числа: если
+                        обычную матрицу умножить на обратную к ней, получится единичная матрица.
+                    </p>
+                    <p data-speed="0.2">
+                        Единичная матрица работает как единица с числами: если умножить любое число на единицу,
+                        получится исходное число; если умножить любую матрицу на единичную матрицу — получится исходная
+                        матрица
+                    </p>
+                    <p data-speed="0.2">
+                        Единичная матрица состоит из единиц и нулей: на диагонали находятся единицы; остальные элементы
+                        — нули. Единичные матрицы не используются при расчёте обратных матриц, но без них не получится
+                        решать матричные уравнения.
+                    </p>
+                    <br>
+                    <h2 data-speed="0.2">Как рассчитать обратную матрицу</h2>
+                    <br>
+                    <p data-speed="0.2">
+                        Для расчёта обратной матрицы нужно выполнить три действия. Пока что не обращайте внимание на
+                        термины:
+                    </p>
+                    <ol data-speed="0.2" class="important">
+                        <li>Разделить единицу на матричный определитель.</li>
+                        <li>Найти транспонированную матрицу алгебраических дополнений. </li>
+                        <li>Перемножить полученные значения.</li>
+                    </ol>
+                </div>
+            </main>
+        </div>
+        <footer id="footer">
+            <hr>
+            <div class="footer-container container">
+                <small>© БГУИР филиал МРК, 2023</small>
+                <p>Харук Антон Евгеньевич, 2к9191</p>
+                <p>Отделение РТО</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
