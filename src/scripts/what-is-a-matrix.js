@@ -11,8 +11,8 @@ items.forEach((item) => {
     x: 0, opacity: 1,
     scrollTrigger: {
       trigger: item,
-      start: '0',
-      end: '500',
+      start: '-500',
+      end: '400',
       scrub: true,
     },
   });
